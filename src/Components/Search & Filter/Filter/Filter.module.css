@@ -1,0 +1,32 @@
+
+.filterParent{
+    display: flex;
+    align-items: center;
+}
+.group{
+    align-items: center;
+    display: flex;
+    margin-right:  40px;
+}
+
+
+.groupSelect{
+
+    text-align: center;
+    height: 38px;
+    font-family: iransansweb;
+    margin:0 10px;
+    padding: 0 10px;
+    border: 1px solid blue;
+    border-radius: 5px;
+    box-shadow: 0 0 1px 0 rgb(94, 4, 179);
+}
+.categori_select{
+    width: 180px;
+}
+.sort_select{
+    width: 140px;
+}
+.groupParagraph{
+    font-family: iransansweb;
+}

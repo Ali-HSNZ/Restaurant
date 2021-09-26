@@ -1,0 +1,12 @@
+.parent{
+    width: 100%;
+    height: auto;
+    margin-top: 35px;
+    display: flex;
+
+    justify-content: center;
+    flex-direction: row;
+}
+.parent_Main{
+    width: 1300px;
+}

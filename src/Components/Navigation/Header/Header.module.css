@@ -1,0 +1,25 @@
+.header{
+    width: 100%;
+    background-color: #240046;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 25px;
+    align-items: center;
+}
+.cart,.logo_a,.menuBar{
+    cursor: pointer;
+    color: rgb(255, 217, 0);
+}
+.logo_a{
+    text-decoration: none;
+    font-family: 'Lucida Calligraphy';
+    font-size: 22px;
+}
+.cart,.menuBar{
+   
+    display: flex;align-items: center;
+}
+
+
+

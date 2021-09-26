@@ -1,0 +1,36 @@
+.parent{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    
+}
+.parent_Main{
+    border: 2px solid rgb(0, 0, 163);
+
+    width: 1300px;
+    height: 90px;
+    margin: 30px 0 30px 0;
+    border-radius: 20px;
+
+    padding: 0 25px;
+
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,73 @@
+
+.addProduct{
+
+    width: 100%;
+    border: 2px solid rgb(0, 0, 163);
+
+    padding: 0 25px;
+    border-radius: 20px;
+    border-top-right-radius: 0;
+}
+.group{
+    display: flex;
+    justify-content: flex-end;
+    font-family: iransansweb;
+    align-items: center;
+    margin: 30px 0;
+    
+
+}
+.group_input{
+
+    height: 38px;
+    font-family: iransansweb;
+    margin:0 10px;
+    padding: 0 10px;
+    border: 1px solid blue;
+    border-radius: 5px;
+    box-shadow: 0 0 1px 0 rgb(94, 4, 179);
+}
+.group_input:focus{
+    box-shadow: 0 0 3px 0 rgb(94, 4, 179);
+}
+.group_Name_input{
+    width: 400px;
+}
+.group_Price_input{
+    width: 190px;
+    text-align: center;
+}
+.group_Description_input{
+    width: 1000px;
+}
+.group_Category_input{
+    width: 200px;
+    text-align: center;
+}
+.group_setImage{
+    width: 130px;
+    font-size: 13px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(94, 4, 179);
+    background-color: rgba(94, 4, 179, 0.171);
+
+    color:   rgb(94, 4, 179);
+    cursor: pointer;
+}
+.submitButton{
+    width: 110px;
+    font-family: iransansweb;
+    font-size: 15px;
+    height: 40px;
+    background-color: rgb(94, 4, 179) ;
+    border-radius: 5px;
+    border: 1px solid rgb(94, 4, 179);
+    color: rgb(255, 222, 35);
+
+    cursor: pointer;
+    box-shadow: 0 0 1px 0 rgb(94, 4, 179);
+    margin-bottom: 25px;
+}
