@@ -6,7 +6,7 @@ const Add = () => {
     return ( 
         <div className={Styles.parent}>
             <div className={Styles.parent_Main}>
-                <AddCategory/>
+                {/* <AddCategory/> */}
                 <AddProduct/>
                 
                 
