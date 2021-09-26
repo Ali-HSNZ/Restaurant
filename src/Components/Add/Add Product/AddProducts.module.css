@@ -1,8 +1,180 @@
 
 
 
-@media only screen and (min-width : 320px){}
-@media only screen and (min-width : 460px){}
+@media only screen and (min-width : 320px){
+    .addProduct{
+        width: 100%;
+        border: 2px solid rgb(0, 0, 163);
+        padding: 0 25px;
+        border-radius: 20px;
+        border-top-right-radius: 0;
+    }
+    .groupColumn{
+        width: 100%;
+    }
+    .group{
+        display: flex;
+        justify-content: flex-end;
+        font-family: iransansweb;
+        align-items: center;
+        margin: 30px 0;
+    }
+    .groupInput_title{
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        font-size: 14px;
+    }
+    .groupInput_title textarea{
+        padding: 10px 10px;
+        min-width: 260px;
+
+        max-height: 130px;
+        min-height: 45px;
+    }
+
+    .group_input{
+        width: 100%;
+        height: 38px;
+        font-family: iransansweb;
+        margin:0 10px;
+        padding: 0 10px;
+        border: 1px solid blue;
+        border-radius: 5px;
+        box-shadow: 0 0 1px 0 rgb(94, 4, 179);
+        font-size: 13px;
+    }
+    .group_input:focus{
+        box-shadow: 0 0 3px 0 rgb(94, 4, 179);
+    }
+    .group_Name_input{
+        max-width: 70%;
+        /* width: 100%; */
+    }
+    .group_Price_input{
+        max-width: 190px;
+        width: 100%;
+        text-align: center;
+    }
+    .group_Description_input{
+        max-width: 77%;
+        height:100px
+    }
+    .group_Category_input{
+        max-width: 200px;
+        width: 100%;
+        text-align: center;
+    }
+    .submitButton{
+        width: 110px;
+        font-family: iransansweb;
+        font-size: 15px;
+        height: 40px;
+        background-color: rgb(94, 4, 179) ;
+        border-radius: 5px;
+        border: 1px solid rgb(94, 4, 179);
+        color: rgb(255, 222, 35);
+    
+        cursor: pointer;
+        box-shadow: 0 0 1px 0 rgb(94, 4, 179);
+        margin-bottom: 25px;
+    }
+    .alert{
+        height: auto;
+        color: red;
+        display: flex;
+        justify-content: flex-end;    
+        margin-top: 9px;
+        font-size:14px ;
+    }
+}
+@media only screen and (min-width : 460px){
+    .addProduct{
+        width: 100%;
+        border: 2px solid rgb(0, 0, 163);
+        padding: 0 25px;
+        border-radius: 20px;
+        border-top-right-radius: 0;
+    }
+    .groupColumn{
+        width: 100%;
+    }
+    .group{
+        display: flex;
+        justify-content: flex-end;
+        font-family: iransansweb;
+        align-items: center;
+        margin: 30px 0;
+    }
+    .groupInput_title{
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        font-size: 14px;
+    }
+    .groupInput_title textarea{
+        padding: 10px 10px;
+        min-width: 260px;
+
+        max-height: 130px;
+        min-height: 45px;
+    }
+
+    .group_input{
+        width: 100%;
+        height: 38px;
+        font-family: iransansweb;
+        margin:0 10px;
+        padding: 0 10px;
+        border: 1px solid blue;
+        border-radius: 5px;
+        box-shadow: 0 0 1px 0 rgb(94, 4, 179);
+        font-size: 13px;
+    }
+    .group_input:focus{
+        box-shadow: 0 0 3px 0 rgb(94, 4, 179);
+    }
+    .group_Name_input{
+        max-width: 81%;
+        /* width: 100%; */
+    }
+    .group_Price_input{
+        max-width: 190px;
+        width: 100%;
+        text-align: center;
+    }
+    .group_Description_input{
+        max-width: 77%;
+        height:100px
+    }
+    .group_Category_input{
+        max-width: 200px;
+        width: 100%;
+        text-align: center;
+    }
+    .submitButton{
+        width: 110px;
+        font-family: iransansweb;
+        font-size: 15px;
+        height: 40px;
+        background-color: rgb(94, 4, 179) ;
+        border-radius: 5px;
+        border: 1px solid rgb(94, 4, 179);
+        color: rgb(255, 222, 35);
+    
+        cursor: pointer;
+        box-shadow: 0 0 1px 0 rgb(94, 4, 179);
+        margin-bottom: 25px;
+    }
+    .alert{
+        height: auto;
+        color: red;
+        display: flex;
+        justify-content: flex-end;    
+        margin-top: 9px;
+        font-size:14px ;
+    }
+}
 @media only screen and (min-width : 600px){
     .addProduct{
         width: 100%;
