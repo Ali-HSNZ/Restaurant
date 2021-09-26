@@ -8,5 +8,7 @@
     flex-direction: row;
 }
 .parent_Main{
-    width: 1300px;
+    width: 100%;
+    max-width: 1300px;
+    padding: 0 25px;
 }
