@@ -83,38 +83,25 @@ export const SetProducts = () =>{
     
     const setFilterProducts = useContext(SetFilterProducts)
 
-        var AllProduct = [];
-
         useEffect(()=>{
             categoryFilter()
         },[product])
   
             
 
-        const AddProduct = (name  ,price ,des ,category ,imgSrc)=> {
+        const AddProduct = (name  ,price ,des ,category)=> {
 
-            setProduct([...product,{Name:name , Price : price , describe : des , Category : category , ImgSrc : imgSrc}])
-            AllProduct.push({Name:name , Price : price , describe : des , Category : category , ImgSrc : imgSrc})
-            
+            setProduct([...product,{Name:name , Price : price , describe : des , Category : category ,}])
         }
 
 
         const Search = (value)=> {
-            // const value = action.event.target.value
-
-
-
-                
-
             if(value === ""){
                 setFilterProducts(product)
             }else{
                 const items = product.filter(item => item.Name.includes(value))
                 setFilterProducts(items)
             }
-
-          
-        
         }
         const Sort = (value) =>{
             if(value === "All"){
@@ -123,26 +110,20 @@ export const SetProducts = () =>{
             else if(value === "highest"){
                  setFilterProducts(_.orderBy(product, 'Price', 'desc'));
             }else{
-              
                 setFilterProducts( _.orderBy(product, 'Price', 'asc'));
-           
             }      
         }    
         const  categoryFilter = (value)=> {
-            //     const value = action.event.target.value
-
             if(value === "انتخاب دسته بندی"){
                 setFilterProducts(product)
             }else{
                 const items = product.filter(item => item.Category.includes(value))
                 setFilterProducts(items)
             }
-            
-                
-         }
+        }
 
 
-            return {AddProduct , Search , Sort , categoryFilter}
+    return {AddProduct , Search , Sort , categoryFilter}
 }  
 
 

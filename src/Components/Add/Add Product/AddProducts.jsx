@@ -16,13 +16,18 @@ const AddProduct = () => {
     const [price , setPrice] = useState('')
     const [des , setDes] = useState('')
     const [category , setCategory] = useState('')
-    const [imgSrc , setSrc] = useState('')
-
 
     const AddProductHandler = ()=>{
+        
         if(name.length >2 && price > 99 && des.length > 2 ){
-            AddProduct(name  ,price ,des ,category ,imgSrc )
+            AddProduct(name  ,price ,des ,category)
+
+            setName('')
+            setPrice('')
+            setDes('')
+            setCategory('')
         }
+
       
     }
 
