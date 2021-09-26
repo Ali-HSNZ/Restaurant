@@ -81,7 +81,6 @@ export const SetProducts = () =>{
     const setProduct = useContext(SetProduct)
     const product = useContext(Product)
     
-    const filterProducts = useContext(FilterProducts)
     const setFilterProducts = useContext(SetFilterProducts)
 
         var AllProduct = [];
@@ -105,10 +104,13 @@ export const SetProducts = () =>{
 
 
 
-            if(value === ''){
-                console.log("AllProduct : ",AllProduct)
+                
+
+            if(value === ""){
+                setFilterProducts(product)
             }else{
-                  setProduct(product.filter(item => item.Name.includes(value)))
+                const items = product.filter(item => item.Name.includes(value))
+                setFilterProducts(items)
             }
 
           

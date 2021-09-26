@@ -14,7 +14,7 @@ const Search = () => {
   const changeHandler= (e)=> {
       setSearch(e.target.value)
       // dispatch({type : 'Search' , event : e})
-      Search(search)
+      Search(e.target.value)
 
   }
   return (
