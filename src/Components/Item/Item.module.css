@@ -12,8 +12,23 @@
     flex-wrap: wrap;
     justify-content: space-between;
 }
+.noData{
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    border: 2px solid rgb(0, 0, 163);
+    background-color:  rgba(0, 0, 163, 0.075);
+    font-family: iransansweb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25x;
+    border-radius: 14px;
+    color: red;
+}
 .item{
-    width: 640px;
+    width: 100%;
+    max-width: 640px;
     height: auto;
     min-height: 130px;
     border: 2px solid rgb(0, 0, 163);

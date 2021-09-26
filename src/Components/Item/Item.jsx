@@ -7,6 +7,18 @@ const Item = () => {
 
     const products = FilterProduct()
     
+    if(products.length ===0){
+        return(
+            <div className={Styles.parent}>
+                <div className={Styles.parent_Main} style={{marginBottom:'25px'}}>
+                    <div className={Styles.noData}>
+                        <p dir='rtl'> غذایی ثبت نکرده اید ! یا غذایی که دنبال آن میگردید در این لیست موجود نیست</p>
+                    </div>
+                </div>
+            </div>
+        )
+    }else{
+
     return ( 
         
         <div className={Styles.parent}>
@@ -49,6 +61,7 @@ const Item = () => {
             </div>
         </div>
     );
+    }
 }
  
 export default Item;
