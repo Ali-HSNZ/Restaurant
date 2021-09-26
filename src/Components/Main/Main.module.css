@@ -1,3 +1,11 @@
+@font-face {
+    font-family: iransansweb;
+    src: url(../src/fonts/iransans/iransans.ttf);
+}
+@font-face {
+    font-family: iranyekanweb;
+    src: url(../src/fonts/iranyekan/iranyekan.ttf);
+}
 .parent{
     width: 100%;height: auto;
     display: flex;

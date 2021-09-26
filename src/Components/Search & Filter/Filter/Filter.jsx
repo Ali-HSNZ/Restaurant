@@ -3,7 +3,7 @@ import {SetProducts , Category}  from '../../Context/ContextProvider'
 import { useEffect, useState } from 'react';
 const Filter = () => {
     
-    const {AddProduct  , categoryFilter} = SetProducts()
+    const {AddProduct , Sort , categoryFilter} = SetProducts()
     const category = Category()
 
     const [Filtercategory , setFilterCategory] = useState('')
@@ -38,10 +38,10 @@ const Filter = () => {
 
             <div className={Styles.group}>
 
-                <select onChange={e =>AddProduct(e)} className={`${Styles.groupSelect} ${Styles.sort_select}`}>
-                    <option>حالت پیش‌فرض</option>
-                    <option>بیش ترین</option>
-                    <option>کم ترین</option>
+                <select onChange={e =>Sort(e.target.value)} className={`${Styles.groupSelect} ${Styles.sort_select}`}>
+                    <option value='All'>حالت پیش‌فرض</option>
+                    <option value='highest'>بیش ترین</option>
+                    <option value="lowest">کم ترین</option>
                 </select>
 
                 <p dir='rtl' className={Styles.groupParagraph}> قیمت : </p>

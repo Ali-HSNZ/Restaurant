@@ -2,9 +2,12 @@ import { useState } from 'react';
 import Styles from './AddProducts.module.css'
 import { SetProducts , Category} from '../../Context/ContextProvider';
 
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 
 const AddProduct = () => {
+    toast.error("Oh my gooooooooooood!")
 
     const {AddProduct , Search , Sort} = SetProducts()
     
@@ -19,9 +22,13 @@ const AddProduct = () => {
     // console.log('name : ', name , ' | price : ', price,' | des : ', des,' | category : ', category,' | imgSrc : ', imgSrc)
 
     const AddProductHandler = ()=>{
-        AddProduct(name  ,price ,des ,category ,imgSrc )
         
+        AddProduct(name  ,price ,des ,category ,imgSrc )
+
+      
     }
+
+
     
     return ( 
         <div className={Styles.addProduct}>
@@ -29,8 +36,10 @@ const AddProduct = () => {
             
                 
                 <div className={Styles.group}>
+                    {name.length <3 && <span className={Styles.alert}>نام غذا نمی تواند خالی باشد</span>}   
                     <input value={name} onChange={ e => setName(e.target.value) } className={`${Styles.group_input} ${Styles.group_Name_input}`} dir='rtl' type="text" placeholder="نام غذا  را وارد کنید... ( از 2 کاراکتر )"/>
-                    <p className={Styles.group_Name} dir='rtl'>نام غذا : </p>   
+                    <p className={Styles.group_Name} dir='rtl'>نام غذا : </p>
+                    
                 </div>
 
                 <div className={Styles.group}>

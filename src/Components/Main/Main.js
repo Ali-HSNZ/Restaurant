@@ -1,7 +1,6 @@
 
 import Add from '../Add/Add';
 import ContextProvider from '../Context/ContextProvider';
-import Debug from '../Debug/Debug';
 import Item from '../Item/Item';
 import HeaderAndMenu from '../Navigation/Header&Menu';
 import SearchFilter from '../Search & Filter/SearchFilter';
@@ -13,7 +12,7 @@ const Main = () => {
               
               
               <ContextProvider>
-                <Debug/>
+               
                 <HeaderAndMenu/>
                 <Add/>
                 <SearchFilter/>

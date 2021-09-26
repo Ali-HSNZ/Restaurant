@@ -116,16 +116,18 @@ export const SetProducts = () =>{
           
         
         }
-        const Sort = () =>{
-            // const value = action.event.target.value
-            // if(value === "انتخاب کنید"){
-            //     return state
-            // }
-            // else if(value === "کم ترین"){
-            //     return _.orderBy(state, 'Price', 'asc');
-            // }else{
-            //     return _.orderBy(state, 'Price', 'desc');
-            }          
+        const Sort = (value) =>{
+            if(value === "All"){
+                setFilterProducts(product)
+            }
+            else if(value === "highest"){
+                 setFilterProducts(_.orderBy(product, 'Price', 'desc'));
+            }else{
+              
+                setFilterProducts( _.orderBy(product, 'Price', 'asc'));
+           
+            }      
+        }    
         const  categoryFilter = (value)=> {
             //     const value = action.event.target.value
 
