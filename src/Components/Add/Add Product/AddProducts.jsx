@@ -20,9 +20,9 @@ const AddProduct = () => {
 
 
     const AddProductHandler = ()=>{
-        // if(name.length >2 && price > 99 && des.length > 2 ){
+        if(name.length >2 && price > 99 && des.length > 2 ){
             AddProduct(name  ,price ,des ,category ,imgSrc )
-        // }
+        }
       
     }
 
