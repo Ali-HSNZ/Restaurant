@@ -4,7 +4,7 @@
     border: 2px solid rgb(0, 0, 151);
     padding: 0 25px;
     border-radius: 20px;
-    border-top-right-radius: 0;
+
 }
 .groupColumn{
     width: 100%;
@@ -101,7 +101,6 @@
         border: 2px solid rgb(0, 0, 151);
         padding: 0 25px;
         border-radius: 20px;
-        border-top-right-radius: 0;
     }
     .groupColumn{
         width: 100%;
@@ -192,14 +191,12 @@
         font-size:14px ;
     }
 }
-
 @media only screen and (min-width : 460px){
     .addProduct{
         width: 100%;
         border: 2px solid rgb(0, 0, 151);
         padding: 0 25px;
         border-radius: 20px;
-        border-top-right-radius: 0;
     }
     .groupColumn{
         width: 100%;
@@ -296,7 +293,6 @@
         border: 2px solid rgb(0, 0, 151);
         padding: 0 25px;
         border-radius: 20px;
-        border-top-right-radius: 0;
     }
     .groupColumn{
         width: 100%;
@@ -393,7 +389,6 @@
         border: 2px solid rgb(0, 0, 151);
         padding: 0 25px;
         border-radius: 20px;
-        border-top-right-radius: 0;
     }
     .groupColumn{
         width: 100%;
@@ -490,7 +485,6 @@
         border: 2px solid rgb(0, 0, 151);
         padding: 0 25px;
         border-radius: 20px;
-        border-top-right-radius: 0;
     }
     .groupColumn{
         width: 100%;
@@ -586,7 +580,6 @@
         border: 2px solid rgb(0, 0, 163);
         padding: 0 25px;
         border-radius: 20px;
-        border-top-right-radius: 0;
     }
     .groupColumn{
         width: 100%;
@@ -676,7 +669,6 @@
         border: 2px solid rgb(0, 0, 163);
         padding: 0 25px;
         border-radius: 20px;
-        border-top-right-radius: 0;
     }
     .groupColumn{
         width: 100%;
@@ -764,7 +756,6 @@
         border: 2px solid rgb(0, 0, 163);
         padding: 0 25px;
         border-radius: 20px;
-        border-top-right-radius: 0;
     }
     .groupColumn{
         width: 100%;
@@ -852,7 +843,6 @@
         border: 2px solid rgb(0, 0, 163);
         padding: 0 25px;
         border-radius: 20px;
-        border-top-right-radius: 0;
     }
     .groupColumn{
         width: 100%;
@@ -940,7 +930,6 @@
         border: 2px solid rgb(0, 0, 163);
         padding: 0 25px;
         border-radius: 20px;
-        border-top-right-radius: 0;
     }
     .groupColumn{
         width: 100%;
