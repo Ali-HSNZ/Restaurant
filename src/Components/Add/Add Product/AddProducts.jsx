@@ -62,9 +62,9 @@ const AddProduct = () => {
                     <div className={Styles.groupColumn}>
                         <div className={Styles.groupInput_title}>
                                 <textarea value={des} onChange={ e => setDes(e.target.value) } className={`${Styles.group_input} ${Styles.group_Description_input}`} dir='rtl' type="text" placeholder="توضیحات غذا  را وارد کنید... ( از 2 کاراکتر )"/>
-                                <p className={Styles.group_Name} dir='rtl'> توضیحات : </p>   
+                                <p className={Styles.group_Name} > : توضیحات  </p>   
                         </div>
-                        {des.length < 3 && <span dir='rtl' className={Styles.alert}>توضیحات غذا نمی تواند کم تر از 2 حرف باشد</span>} 
+                        {des.length < 3 && <span className={Styles.alert}>توضیحات غذا نمی تواند کم تر از 2 حرف باشد</span>} 
                     </div>
                 </div>
 
@@ -78,7 +78,7 @@ const AddProduct = () => {
                             </select>
                             <p className={Styles.group_Name} dir='rtl'>دسته بندی ( گروه )  : </p>   
                         </div>
-                        {des.length < 3 && <span dir='rtl' className={Styles.alert} style={{color:'green'}}>می توانید گروه غذایی انتخاب نکنید (اختیاری)</span>} 
+                        {des.length < 3 && <span  className={Styles.alert} style={{color:'green'}}>می توانید گروه غذایی انتخاب نکنید (اختیاری)</span>} 
 
                     </div>
                 </div>

@@ -11,8 +11,13 @@
     }
     .groupColumn{
         width: 100%;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
     }
     .group{
+        width: 100%;
         display: flex;
         justify-content: flex-end;
         font-family: iransansweb;
@@ -20,8 +25,11 @@
         margin: 30px 0;
     }
     .groupInput_title{
+        width: 100%;
+        height: auto;
         display: flex;
-        align-items: center;
+        align-items: flex-end;
+        flex-direction: column-reverse;
         justify-content: flex-end;
         font-size: 14px;
     }
@@ -48,8 +56,11 @@
         box-shadow: 0 0 3px 0 rgb(94, 4, 179);
     }
     .group_Name_input{
-        max-width: 73%;
+        max-width: 97%;
         
+    }
+    .group_Name{
+        margin-bottom: 5px;
     }
     .group_Price_input{
         max-width: 190px;
@@ -57,11 +68,11 @@
         text-align: center;
     }
     .group_Description_input{
-        max-width: 65%;
+        max-width: 97%;
         height:100px
     }
     .group_Category_input{
-        max-width: 45%;
+        max-width: 200px;
         text-align: center;
     }
     .submitButton{
@@ -87,18 +98,24 @@
         font-size:14px ;
     }
 }
+
 @media only screen and (min-width : 460px){
     .addProduct{
         width: 100%;
-        border: 2px solid rgb(0, 0, 163);
+        border: 2px solid rgb(0, 0, 151);
         padding: 0 25px;
         border-radius: 20px;
         border-top-right-radius: 0;
     }
     .groupColumn{
         width: 100%;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
     }
     .group{
+        width: 100%;
         display: flex;
         justify-content: flex-end;
         font-family: iransansweb;
@@ -106,14 +123,17 @@
         margin: 30px 0;
     }
     .groupInput_title{
+        width: 100%;
+        height: auto;
         display: flex;
-        align-items: center;
+        align-items: flex-end;
+        flex-direction: column-reverse;
         justify-content: flex-end;
         font-size: 14px;
     }
     .groupInput_title textarea{
         padding: 10px 10px;
-        min-width: 260px;
+        min-width: 150px;
 
         max-height: 130px;
         min-height: 45px;
@@ -134,8 +154,11 @@
         box-shadow: 0 0 3px 0 rgb(94, 4, 179);
     }
     .group_Name_input{
-        max-width: 83%;
+        max-width: 97%;
         
+    }
+    .group_Name{
+        margin-bottom: 5px;
     }
     .group_Price_input{
         max-width: 190px;
@@ -143,12 +166,11 @@
         text-align: center;
     }
     .group_Description_input{
-        max-width: 78.7%;
+        max-width: 97%;
         height:100px
     }
     .group_Category_input{
         max-width: 200px;
-        width: 100%;
         text-align: center;
     }
     .submitButton{
@@ -177,15 +199,20 @@
 @media only screen and (min-width : 600px){
     .addProduct{
         width: 100%;
-        border: 2px solid rgb(0, 0, 163);
+        border: 2px solid rgb(0, 0, 151);
         padding: 0 25px;
         border-radius: 20px;
         border-top-right-radius: 0;
     }
     .groupColumn{
         width: 100%;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
     }
     .group{
+        width: 100%;
         display: flex;
         justify-content: flex-end;
         font-family: iransansweb;
@@ -193,14 +220,17 @@
         margin: 30px 0;
     }
     .groupInput_title{
+        width: 100%;
+        height: auto;
         display: flex;
-        align-items: center;
+        align-items: flex-end;
+        flex-direction: column-reverse;
         justify-content: flex-end;
         font-size: 14px;
     }
     .groupInput_title textarea{
         padding: 10px 10px;
-        min-width: 260px;
+        min-width: 150px;
 
         max-height: 130px;
         min-height: 45px;
@@ -221,8 +251,11 @@
         box-shadow: 0 0 3px 0 rgb(94, 4, 179);
     }
     .group_Name_input{
-        max-width: 400px;
-        width: 100%;
+        max-width: 97%;
+        
+    }
+    .group_Name{
+        margin-bottom: 5px;
     }
     .group_Price_input{
         max-width: 190px;
@@ -230,12 +263,11 @@
         text-align: center;
     }
     .group_Description_input{
-        max-width: 84.3%;
+        max-width: 97%;
         height:100px
     }
     .group_Category_input{
         max-width: 200px;
-        width: 100%;
         text-align: center;
     }
     .submitButton{
@@ -251,7 +283,7 @@
         cursor: pointer;
         box-shadow: 0 0 1px 0 rgb(94, 4, 179);
         margin-bottom: 25px;
-    }
+    } 
     .alert{
         height: auto;
         color: red;
@@ -264,15 +296,20 @@
 @media only screen and (min-width : 720px){
     .addProduct{
         width: 100%;
-        border: 2px solid rgb(0, 0, 163);
+        border: 2px solid rgb(0, 0, 151);
         padding: 0 25px;
         border-radius: 20px;
         border-top-right-radius: 0;
     }
     .groupColumn{
         width: 100%;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
     }
     .group{
+        width: 100%;
         display: flex;
         justify-content: flex-end;
         font-family: iransansweb;
@@ -280,14 +317,17 @@
         margin: 30px 0;
     }
     .groupInput_title{
+        width: 100%;
+        height: auto;
         display: flex;
-        align-items: center;
+        align-items: flex-end;
+        flex-direction: column-reverse;
         justify-content: flex-end;
         font-size: 14px;
     }
     .groupInput_title textarea{
         padding: 10px 10px;
-        min-width: 260px;
+        min-width: 150px;
 
         max-height: 130px;
         min-height: 45px;
@@ -308,8 +348,11 @@
         box-shadow: 0 0 3px 0 rgb(94, 4, 179);
     }
     .group_Name_input{
-        max-width: 400px;
-        width: 100%;
+        max-width: 97%;
+        
+    }
+    .group_Name{
+        margin-bottom: 5px;
     }
     .group_Price_input{
         max-width: 190px;
@@ -317,12 +360,11 @@
         text-align: center;
     }
     .group_Description_input{
-        max-width: 87%;
+        max-width: 97%;
         height:100px
     }
     .group_Category_input{
         max-width: 200px;
-        width: 100%;
         text-align: center;
     }
     .submitButton{
@@ -338,7 +380,7 @@
         cursor: pointer;
         box-shadow: 0 0 1px 0 rgb(94, 4, 179);
         margin-bottom: 25px;
-    }
+    } 
     .alert{
         height: auto;
         color: red;
