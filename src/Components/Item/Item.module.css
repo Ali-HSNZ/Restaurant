@@ -13,6 +13,7 @@
     grid-template-columns: repeat( auto-fit , minmax( 200px, 1fr ));
     grid-column-gap: 1rem;
     grid-row-gap: 1rem;
+    padding: 0 10px;
 }
 .noData{
     width: 100%;
@@ -109,6 +110,7 @@
     }
     .parent_Main{
         width: 100%;
+        padding: 0 10px;
         max-width: 1300px;
         display: grid;
         grid-template-columns: repeat( auto-fit , minmax( 300px, 1fr ));
@@ -213,6 +215,7 @@
         width: 100%;
         max-width: 1300px;
         display: grid;
+        padding: 0 10px;
         grid-template-columns: repeat( auto-fit , minmax( 300px, 1fr ));
         grid-column-gap: 1rem;
         grid-row-gap: 1rem;
@@ -307,6 +310,7 @@
     .parent_Main{
         width: 100%;
         max-width: 1300px;
+        padding: 0 10px;
         display: grid;
         grid-template-columns: repeat( auto-fit , minmax( 500px, 1fr ));
         grid-column-gap: 1rem;
@@ -386,8 +390,190 @@
         box-shadow: 0 0 1px 0 rgb(94, 4, 179);
     }
 }
-@media only screen and (min-width : 720px){}
-@media only screen and (min-width : 800px){}
+@media only screen and (min-width : 720px){
+    .parent{
+        width: 100%;
+        height: auto;
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .parent_Main{
+        width: 100%;
+        max-width: 1300px;
+        display: grid;
+        padding: 0 10px;
+        grid-template-columns: repeat( auto-fit , minmax( 500px, 1fr ));
+        grid-column-gap: 1rem;
+        grid-row-gap: 1rem;
+    }
+    .noData{
+        width: 100%;
+        height: auto;
+        padding: 20px;
+        border: 2px solid rgb(0, 0, 163);
+        background-color:  rgba(0, 0, 163, 0.075);
+        font-family: iransansweb;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 25x;
+        border-radius: 14px;
+        color: red;
+    }
+    .item{
+        width: auto;
+        /* max-width: 640px; */
+        height: auto;
+        min-height: 130px;
+        border: 2px solid rgb(0, 0, 163);
+        display: flex;
+        justify-content: space-between;
+        padding:  20px;
+        border-radius: 20px;
+        background-color:  rgba(0, 0, 163, 0.075);
+    }
+    .image{
+        width: 100px;
+        height: 100%;
+        display: flex;
+        align-items: center;
+    }
+    .image img{
+        width: 100px;
+        height: 100px;
+        border-radius: 100%;
+        box-shadow: 0 0 3px 1px rgb(10, 10, 10);
+    }
+    
+    .Paragraph_Description{
+        display: flex;
+        flex-direction: column;
+        padding: 0 20px;
+        font-family: iranyekanweb;
+    }
+    .Paragraph{
+        margin-bottom: 10px;
+        font-family: iransansweb;
+    }
+    
+    
+    .Price_Btn{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        font-family: iranyekanweb, iransansweb;
+    }
+    .price{
+        width: auto;
+        height: auto;
+        text-align: left;
+    }
+    .Submit{
+        width: 90px;
+        font-family: iransansweb;
+        height: 35px;
+        background-color: rgba(94, 4, 179, 0.171);
+        border-radius: 5px;
+        border: 1px solid rgb(94, 4, 179);
+        color:   rgb(94, 4, 179);
+        cursor: pointer;
+        box-shadow: 0 0 1px 0 rgb(94, 4, 179);
+    }
+}
+@media only screen and (min-width : 800px){
+    .parent{
+        width: 100%;
+        height: auto;
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .parent_Main{
+        width: 100%;
+        max-width: 1300px;
+        display: grid;
+        padding: 0 10px;
+        grid-template-columns: repeat( auto-fit , minmax( 500px, 1fr ));
+        grid-column-gap: 1rem;
+        grid-row-gap: 1rem;
+    }
+    .noData{
+        width: 100%;
+        height: auto;
+        padding: 20px;
+        border: 2px solid rgb(0, 0, 163);
+        background-color:  rgba(0, 0, 163, 0.075);
+        font-family: iransansweb;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 25x;
+        border-radius: 14px;
+        color: red;
+    }
+    .item{
+        width: auto;
+        /* max-width: 640px; */
+        height: auto;
+        min-height: 130px;
+        border: 2px solid rgb(0, 0, 163);
+        display: flex;
+        justify-content: space-between;
+        padding:  20px;
+        border-radius: 20px;
+        background-color:  rgba(0, 0, 163, 0.075);
+    }
+    .image{
+        width: 100px;
+        height: 100%;
+        display: flex;
+        align-items: center;
+    }
+    .image img{
+        width: 100px;
+        height: 100px;
+        border-radius: 100%;
+        box-shadow: 0 0 3px 1px rgb(10, 10, 10);
+    }
+    
+    .Paragraph_Description{
+        display: flex;
+        flex-direction: column;
+        padding: 0 20px;
+        font-family: iranyekanweb;
+    }
+    .Paragraph{
+        margin-bottom: 10px;
+        font-family: iransansweb;
+    }
+    
+    
+    .Price_Btn{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        font-family: iranyekanweb, iransansweb;
+    }
+    .price{
+        width: auto;
+        height: auto;
+        text-align: left;
+    }
+    .Submit{
+        width: 90px;
+        font-family: iransansweb;
+        height: 35px;
+        background-color: rgba(94, 4, 179, 0.171);
+        border-radius: 5px;
+        border: 1px solid rgb(94, 4, 179);
+        color:   rgb(94, 4, 179);
+        cursor: pointer;
+        box-shadow: 0 0 1px 0 rgb(94, 4, 179);
+    }
+}
 @media only screen and (min-width : 980px){
     .parent{
         width: 100%;
@@ -400,6 +586,7 @@
     .parent_Main{
         width: 100%;
         max-width: 1300px;
+        padding: 0 10px;
         display: grid;
         grid-template-columns: repeat( auto-fit , minmax( 500px, 1fr ));
         grid-column-gap: 1rem;
@@ -490,6 +677,7 @@
     }
     .parent_Main{
         width: 100%;
+        padding: 0 10px;
         max-width: 1300px;
         display: grid;
         grid-template-columns: repeat( auto-fit , minmax( 500px, 1fr ));
@@ -570,6 +758,280 @@
         box-shadow: 0 0 1px 0 rgb(94, 4, 179);
     }
 }
-@media only screen and (min-width : 1180px){}
-@media only screen and (min-width : 1260px){}
-@media only screen and (min-width : 1366px){}
+@media only screen and (min-width : 1180px){
+    .parent{
+        width: 100%;
+        height: auto;
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .parent_Main{
+        width: 100%;
+        padding: 0 10px;
+        max-width: 1300px;
+        display: grid;
+        grid-template-columns: repeat( auto-fit , minmax( 500px, 1fr ));
+        grid-column-gap: 2rem;
+        grid-row-gap: 2rem;
+    }
+    .noData{
+        width: 100%;
+        height: auto;
+        padding: 20px;
+        border: 2px solid rgb(0, 0, 163);
+        background-color:  rgba(0, 0, 163, 0.075);
+        font-family: iransansweb;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 25x;
+        border-radius: 14px;
+        color: red;
+    }
+    .item{
+        width: auto;
+        /* max-width: 640px; */
+        height: auto;
+        min-height: 130px;
+        border: 2px solid rgb(0, 0, 163);
+        display: flex;
+        justify-content: space-between;
+        padding:  20px;
+        border-radius: 20px;
+        background-color:  rgba(0, 0, 163, 0.075);
+    }
+    .image{
+        width: 120px;
+        height: 100%;
+        display: flex;
+        align-items: center;
+    }
+    .image img{
+        width: 120px;
+        height: 120px;
+        border-radius: 100%;
+        box-shadow: 0 0 3px 1px rgb(10, 10, 10);
+    }
+    
+    .Paragraph_Description{
+        display: flex;
+        flex-direction: column;
+        padding: 0 20px;
+        font-family: iranyekanweb;
+    }
+    .Paragraph{
+        margin-bottom: 10px;
+        font-family: iransansweb;
+    }
+    
+    
+    .Price_Btn{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        font-family: iranyekanweb, iransansweb;
+    }
+    .price{
+        width: auto;
+        height: auto;
+        text-align: left;
+    }
+    .Submit{
+        width: 90px;
+        font-family: iransansweb;
+        height: 35px;
+        background-color: rgba(94, 4, 179, 0.171);
+        border-radius: 5px;
+        border: 1px solid rgb(94, 4, 179);
+        color:   rgb(94, 4, 179);
+        cursor: pointer;
+        box-shadow: 0 0 1px 0 rgb(94, 4, 179);
+    }
+}
+@media only screen and (min-width : 1260px){
+    .parent{
+        width: 100%;
+        height: auto;
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .parent_Main{
+        width: 100%;
+        padding: 0 10px;
+        max-width: 1300px;
+        display: grid;
+        grid-template-columns: repeat( auto-fit , minmax( 500px, 1fr ));
+        grid-column-gap: 2rem;
+        grid-row-gap: 2rem;
+    }
+    .noData{
+        width: 100%;
+        height: auto;
+        padding: 20px;
+        border: 2px solid rgb(0, 0, 163);
+        background-color:  rgba(0, 0, 163, 0.075);
+        font-family: iransansweb;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 25x;
+        border-radius: 14px;
+        color: red;
+    }
+    .item{
+        width: auto;
+        /* max-width: 640px; */
+        height: auto;
+        min-height: 130px;
+        border: 2px solid rgb(0, 0, 163);
+        display: flex;
+        justify-content: space-between;
+        padding:  20px;
+        border-radius: 20px;
+        background-color:  rgba(0, 0, 163, 0.075);
+    }
+    .image{
+        width: 120px;
+        height: 100%;
+        display: flex;
+        align-items: center;
+    }
+    .image img{
+        width: 120px;
+        height: 120px;
+        border-radius: 100%;
+        box-shadow: 0 0 3px 1px rgb(10, 10, 10);
+    }
+    
+    .Paragraph_Description{
+        display: flex;
+        flex-direction: column;
+        padding: 0 20px;
+        font-family: iranyekanweb;
+    }
+    .Paragraph{
+        margin-bottom: 10px;
+        font-family: iransansweb;
+    }
+    
+    
+    .Price_Btn{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        font-family: iranyekanweb, iransansweb;
+    }
+    .price{
+        width: auto;
+        height: auto;
+        text-align: left;
+    }
+    .Submit{
+        width: 90px;
+        font-family: iransansweb;
+        height: 35px;
+        background-color: rgba(94, 4, 179, 0.171);
+        border-radius: 5px;
+        border: 1px solid rgb(94, 4, 179);
+        color:   rgb(94, 4, 179);
+        cursor: pointer;
+        box-shadow: 0 0 1px 0 rgb(94, 4, 179);
+    }
+}
+@media only screen and (min-width : 1366px){
+    .parent{
+        width: 100%;
+        height: auto;
+       
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .parent_Main{
+        width: 100%;
+        max-width: 1300px;
+        padding: 0 10px;
+        padding: 0 10px;
+        display: grid;
+        grid-template-columns: repeat( auto-fit , minmax( 500px, 1fr ));
+        grid-column-gap: 2rem;
+        grid-row-gap: 2rem;
+    }
+    .noData{
+        width: 100%;
+        height: auto;
+        padding: 20px;
+        border: 2px solid rgb(0, 0, 163);
+        background-color:  rgba(0, 0, 163, 0.075);
+        font-family: iransansweb;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 25x;
+        border-radius: 14px;
+        color: red;
+    }
+    .item{
+        width: auto;
+        /* max-width: 640px; */
+        height: auto;
+        min-height: 130px;
+        border: 2px solid rgb(0, 0, 163);
+        display: flex;
+        justify-content: space-between;
+        padding:  20px;
+        border-radius: 20px;
+        background-color:  rgba(0, 0, 163, 0.075);
+    }
+    .image{
+        width: 120px;
+        height: 100%;
+        display: flex;
+        align-items: center;
+    }
+    .image img{
+        width: 120px;
+        height: 120px;
+        border-radius: 100%;
+        box-shadow: 0 0 3px 1px rgb(10, 10, 10);
+    }
+    
+    .Paragraph_Description{
+        display: flex;
+        flex-direction: column;
+        padding: 0 20px;
+        font-family: iranyekanweb;
+    }
+    .Paragraph{
+        margin-bottom: 10px;
+        font-family: iransansweb;
+    }
+    
+    
+    .Price_Btn{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        font-family: iranyekanweb, iransansweb;
+    }
+    .price{
+        width: auto;
+        height: auto;
+        text-align: left;
+    }
+    .Submit{
+        width: 90px;
+        font-family: iransansweb;
+        height: 35px;
+        background-color: rgba(94, 4, 179, 0.171);
+        border-radius: 5px;
+        border: 1px solid rgb(94, 4, 179);
+        color:   rgb(94, 4, 179);
+        cursor: pointer;
+        box-shadow: 0 0 1px 0 rgb(94, 4, 179);
+    }
+}
