@@ -3,7 +3,7 @@ import Menu from "./Menu/Menu";
 
 const HeaderAndMenu = () => {
     return( 
-        <div className='Header'>
+        <div className='Header' >
             <Header/>
             {/* <Menu/>  */}
         </div>

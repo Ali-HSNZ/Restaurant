@@ -2,24 +2,72 @@
     width: 100%;
     height: auto;
     display: flex;
-    justify-content: center;
     
+    justify-content: center;
 }
 .parent_Main{
     border: 2px solid rgb(0, 0, 163);
-
-    width: 1300px;
-    height: 90px;
-    margin: 30px 0 30px 0;
+    width: 1280px;
+    height: auto;
+    margin: 25px 0 25px 0;
     border-radius: 20px;
-
-    padding: 0 25px;
-
+    padding: 25px 25px;
     display: flex;
+    align-items: center;
     justify-content: space-between;
-
+    flex-direction: column;
 }
-
+@media only screen and (min-width : 320px){}
+@media only screen and (min-width : 460px){}
+@media only screen and (min-width : 600px){}
+@media only screen and (min-width : 720px){
+    
+}
+@media only screen and (min-width : 800px){
+    .parent{
+        width: 100%;
+        height: auto;
+        display: flex;
+        
+        justify-content: center;
+    }
+    .parent_Main{
+        border: 2px solid rgb(0, 0, 163);
+        width: 1280px;
+        height: auto;
+        margin: 25px 0 25px 0;
+        border-radius: 20px;
+        padding: 25px 25px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+}
+@media only screen and (min-width : 960px){
+    .parent{
+        width: 100%;
+        height: auto;
+        display: flex;
+        
+        justify-content: center;
+    }
+    .parent_Main{
+        border: 2px solid rgb(0, 0, 163);
+        width: 1280px;
+        height: auto;
+        margin: 25px 0 25px 0;
+        border-radius: 20px;
+        padding: 0 25px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+    }
+}
+@media only screen and (min-width : 1080px){}
+@media only screen and (min-width : 1180px){}
+@media only screen and (min-width : 1260px){}
+@media only screen and (min-width : 1366px){}
 
 
 

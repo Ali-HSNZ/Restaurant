@@ -6,8 +6,10 @@ const SearchFilter = () => {
     return ( 
         <div className={Styles.parent}>
             <div className={Styles.parent_Main}>
-                <Filter/>
+
                 <Search/>
+                <Filter/>
+               
             </div>
         </div>
     );

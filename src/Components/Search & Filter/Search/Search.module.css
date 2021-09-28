@@ -1,10 +1,130 @@
 .searchParent{
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column-reverse;
+    width: 100%;
+    margin-bottom: 25px;
 }
 .searchInput{
-    width: 500px;
+    width: 100%;
+    height: 38px;
+    font-family: iransansweb;
+    /* margin:0 10px; */
+    font-size: 14px;
+
+    padding: 0 10px;
+    border: 1px solid blue;
+    border-radius: 5px;
+    box-shadow: 0 0 1px 0 rgb(94, 4, 179);
+}
+.searchInput:focus{
+    box-shadow: 0 0 3px 0 rgb(94, 4, 179);
+}
+.searchParagraph{
+    font-family: iransansweb;
+    width: 63px;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+@media only screen and (min-width : 320px){
+    .searchParent{
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+        flex-direction: column-reverse;
+        width: 100%;
+        margin-bottom: 25px;
+    }
+    .searchInput{
+        width: 100%;
+        height: 38px;
+        font-family: iransansweb;
+        /* margin:0 10px; */
+        font-size: 14px;
+
+        padding: 0 10px;
+        border: 1px solid blue;
+        border-radius: 5px;
+        box-shadow: 0 0 1px 0 rgb(94, 4, 179);
+    }
+    .searchInput:focus{
+        box-shadow: 0 0 3px 0 rgb(94, 4, 179);
+    }
+    .searchParagraph{
+        font-family: iransansweb;
+        width: 63px;
+        margin-bottom: 5px;
+        font-size: 14px;
+    }
+}
+@media only screen and (min-width : 460px){
+    .searchParent{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        width: 100%;
+        margin-bottom: 25px;
+    }
+    .searchInput{
+        width: 88.5%;
+        height: 38px;
+        font-family: iransansweb;
+        margin:0 10px;
+        padding: 0 10px;
+        border: 1px solid blue;
+        border-radius: 5px;
+        box-shadow: 0 0 1px 0 rgb(94, 4, 179);
+    }
+    .searchInput:focus{
+        box-shadow: 0 0 3px 0 rgb(94, 4, 179);
+    }
+    .searchParagraph{
+        font-family: iransansweb;
+        width: 63px;
+        margin:0;
+        font-size: 14px;
+    }
+}
+@media only screen and (min-width : 600px){
+    .searchParent{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        width: 100%;
+        margin-bottom: 25px;
+    }
+    .searchInput{
+        width: 94%;
+        height: 38px;
+        font-family: iransansweb;
+        margin:0 10px;
+        padding: 0 10px;
+        border: 1px solid blue;
+        border-radius: 5px;
+        box-shadow: 0 0 1px 0 rgb(94, 4, 179);
+    }
+    .searchInput:focus{
+        box-shadow: 0 0 3px 0 rgb(94, 4, 179);
+    }
+    .searchParagraph{
+        font-family: iransansweb;
+        width: 63px;
+    }
+}
+@media only screen and (min-width : 720px){
+    .searchParent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 25px;
+}
+.searchInput{
+    width: 95%;
     height: 38px;
     font-family: iransansweb;
     margin:0 10px;
@@ -18,4 +138,38 @@
 }
 .searchParagraph{
     font-family: iransansweb;
+    width: 63px;
 }
+
+}
+@media only screen and (min-width : 800px){}
+@media only screen and (min-width : 960px){
+    .searchParent{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin-top: 25px;
+    }
+    .searchInput{
+        width: 95%;
+        height: 38px;
+        font-family: iransansweb;
+        margin:0 10px;
+        padding: 0 10px;
+        border: 1px solid blue;
+        border-radius: 5px;
+        box-shadow: 0 0 1px 0 rgb(94, 4, 179);
+    }
+    .searchInput:focus{
+        box-shadow: 0 0 3px 0 rgb(94, 4, 179);
+    }
+    .searchParagraph{
+        font-family: iransansweb;
+        width: 63px;
+    }
+}
+@media only screen and (min-width : 1080px){}
+@media only screen and (min-width : 1180px){}
+@media only screen and (min-width : 1260px){}
+@media only screen and (min-width : 1366px){}
