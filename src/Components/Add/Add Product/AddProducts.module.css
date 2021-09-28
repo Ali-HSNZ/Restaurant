@@ -73,17 +73,16 @@
     text-align: center;
 }
 .submitButton{
-    width: 110px;
+    width: 90px;
     font-family: iransansweb;
-    font-size: 15px;
-    height: 40px;
-    background-color: rgb(94, 4, 179) ;
+    height: 35px;
+    background-color: rgba(94, 4, 179, 0.171);
     border-radius: 5px;
     border: 1px solid rgb(94, 4, 179);
-    color: rgb(255, 222, 35);
-
+    color:   rgb(94, 4, 179);
     cursor: pointer;
     box-shadow: 0 0 1px 0 rgb(94, 4, 179);
+    font-size: 13px;
     margin-bottom: 25px;
 } 
 .alert{
@@ -169,17 +168,16 @@
         text-align: center;
     }
     .submitButton{
-        width: 110px;
+        width: 90px;
         font-family: iransansweb;
-        font-size: 15px;
-        height: 40px;
-        background-color: rgb(94, 4, 179) ;
+        height: 35px;
+        background-color: rgba(94, 4, 179, 0.171);
         border-radius: 5px;
         border: 1px solid rgb(94, 4, 179);
-        color: rgb(255, 222, 35);
-    
+        color:   rgb(94, 4, 179);
         cursor: pointer;
         box-shadow: 0 0 1px 0 rgb(94, 4, 179);
+        font-size: 13px;
         margin-bottom: 25px;
     } 
     .alert{
@@ -265,17 +263,16 @@
         text-align: center;
     }
     .submitButton{
-        width: 110px;
+        width: 90px;
         font-family: iransansweb;
-        font-size: 15px;
-        height: 40px;
-        background-color: rgb(94, 4, 179) ;
+        height: 35px;
+        background-color: rgba(94, 4, 179, 0.171);
         border-radius: 5px;
         border: 1px solid rgb(94, 4, 179);
-        color: rgb(255, 222, 35);
-    
+        color:   rgb(94, 4, 179);
         cursor: pointer;
         box-shadow: 0 0 1px 0 rgb(94, 4, 179);
+        font-size: 13px;
         margin-bottom: 25px;
     } 
     .alert{
@@ -341,7 +338,7 @@
         box-shadow: 0 0 3px 0 rgb(94, 4, 179);
     }
     .group_Name_input{
-        max-width: 97%;
+        max-width: 500px;
         
     }
     .group_Name{
@@ -361,17 +358,16 @@
         text-align: center;
     }
     .submitButton{
-        width: 110px;
+        width: 90px;
         font-family: iransansweb;
-        font-size: 15px;
-        height: 40px;
-        background-color: rgb(94, 4, 179) ;
+        height: 35px;
+        background-color: rgba(94, 4, 179, 0.171);
         border-radius: 5px;
         border: 1px solid rgb(94, 4, 179);
-        color: rgb(255, 222, 35);
-    
+        color:   rgb(94, 4, 179);
         cursor: pointer;
         box-shadow: 0 0 1px 0 rgb(94, 4, 179);
+        font-size: 13px;
         margin-bottom: 25px;
     } 
     .alert{
@@ -437,7 +433,7 @@
         box-shadow: 0 0 3px 0 rgb(94, 4, 179);
     }
     .group_Name_input{
-        max-width: 97%;
+        max-width: 500px;
         
     }
     .group_Name{
@@ -457,17 +453,16 @@
         text-align: center;
     }
     .submitButton{
-        width: 110px;
+        width: 90px;
         font-family: iransansweb;
-        font-size: 15px;
-        height: 40px;
-        background-color: rgb(94, 4, 179) ;
+        height: 35px;
+        background-color: rgba(94, 4, 179, 0.171);
         border-radius: 5px;
         border: 1px solid rgb(94, 4, 179);
-        color: rgb(255, 222, 35);
-    
+        color:   rgb(94, 4, 179);
         cursor: pointer;
         box-shadow: 0 0 1px 0 rgb(94, 4, 179);
+        font-size: 13px;
         margin-bottom: 25px;
     } 
     .alert{
@@ -532,7 +527,7 @@
         box-shadow: 0 0 3px 0 rgb(94, 4, 179);
     }
     .group_Name_input{
-        max-width: 97%;
+        max-width: 500px;
         
     }
     .group_Name{
@@ -552,17 +547,16 @@
         text-align: center;
     }
     .submitButton{
-        width: 110px;
+        width: 90px;
         font-family: iransansweb;
-        font-size: 15px;
-        height: 40px;
-        background-color: rgb(94, 4, 179) ;
+        height: 35px;
+        background-color: rgba(94, 4, 179, 0.171);
         border-radius: 5px;
         border: 1px solid rgb(94, 4, 179);
-        color: rgb(255, 222, 35);
-    
+        color:   rgb(94, 4, 179);
         cursor: pointer;
         box-shadow: 0 0 1px 0 rgb(94, 4, 179);
+        font-size: 13px;
         margin-bottom: 25px;
     } 
     .alert{
@@ -641,17 +635,16 @@
         text-align: center;
     }
     .submitButton{
-        width: 110px;
+        width: 90px;
         font-family: iransansweb;
-        font-size: 15px;
-        height: 40px;
-        background-color: rgb(94, 4, 179) ;
+        height: 35px;
+        background-color: rgba(94, 4, 179, 0.171);
         border-radius: 5px;
         border: 1px solid rgb(94, 4, 179);
-        color: rgb(255, 222, 35);
-    
+        color:   rgb(94, 4, 179);
         cursor: pointer;
         box-shadow: 0 0 1px 0 rgb(94, 4, 179);
+        font-size: 13px;
         margin-bottom: 25px;
     }
     .alert{
@@ -728,17 +721,16 @@
         text-align: center;
     }
     .submitButton{
-        width: 110px;
+        width: 90px;
         font-family: iransansweb;
-        font-size: 15px;
-        height: 40px;
-        background-color: rgb(94, 4, 179) ;
+        height: 35px;
+        background-color: rgba(94, 4, 179, 0.171);
         border-radius: 5px;
         border: 1px solid rgb(94, 4, 179);
-        color: rgb(255, 222, 35);
-    
+        color:   rgb(94, 4, 179);
         cursor: pointer;
         box-shadow: 0 0 1px 0 rgb(94, 4, 179);
+        font-size: 13px;
         margin-bottom: 25px;
     }
     .alert{
@@ -815,17 +807,16 @@
         text-align: center;
     }
     .submitButton{
-        width: 110px;
+        width: 90px;
         font-family: iransansweb;
-        font-size: 15px;
-        height: 40px;
-        background-color: rgb(94, 4, 179) ;
+        height: 35px;
+        background-color: rgba(94, 4, 179, 0.171);
         border-radius: 5px;
         border: 1px solid rgb(94, 4, 179);
-        color: rgb(255, 222, 35);
-    
+        color:   rgb(94, 4, 179);
         cursor: pointer;
         box-shadow: 0 0 1px 0 rgb(94, 4, 179);
+        font-size: 13px;
         margin-bottom: 25px;
     }
     .alert{
@@ -902,17 +893,16 @@
         text-align: center;
     }
     .submitButton{
-        width: 110px;
+        width: 90px;
         font-family: iransansweb;
-        font-size: 15px;
-        height: 40px;
-        background-color: rgb(94, 4, 179) ;
+        height: 35px;
+        background-color: rgba(94, 4, 179, 0.171);
         border-radius: 5px;
         border: 1px solid rgb(94, 4, 179);
-        color: rgb(255, 222, 35);
-    
+        color:   rgb(94, 4, 179);
         cursor: pointer;
         box-shadow: 0 0 1px 0 rgb(94, 4, 179);
+        font-size: 13px;
         margin-bottom: 25px;
     }
     .alert{
@@ -989,17 +979,16 @@
         text-align: center;
     }
     .submitButton{
-        width: 110px;
+        width: 90px;
         font-family: iransansweb;
-        font-size: 15px;
-        height: 40px;
-        background-color: rgb(94, 4, 179) ;
+        height: 35px;
+        background-color: rgba(94, 4, 179, 0.171);
         border-radius: 5px;
         border: 1px solid rgb(94, 4, 179);
-        color: rgb(255, 222, 35);
-    
+        color:   rgb(94, 4, 179);
         cursor: pointer;
         box-shadow: 0 0 1px 0 rgb(94, 4, 179);
+        font-size: 13px;
         margin-bottom: 25px;
     }
     .alert{

@@ -136,13 +136,13 @@
         display: flex;
         flex-direction: row;
         align-items: center;
-        justify-content: space-between;
+        justify-content: space-around;
     }
     .group{
+        width: auto;
         display: flex;
         justify-content: center;
         align-items: center;
-       
     }
     .groupSort{
         margin:0;
