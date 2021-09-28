@@ -24,12 +24,14 @@ const Filter = () => {
 
             <div className={`${Styles.group} ${Styles.groupSort}`}>
 
-                <select onChange={e =>Sort(e.target.value)} className={`${Styles.groupSelect} ${Styles.sort_select}`}>
+               {/* <div style={{display:'flex'}}> */}
+               <select onChange={e =>Sort(e.target.value)} className={`${Styles.groupSelect} ${Styles.sort_select}`}>
                     <option value='All'>حالت پیش‌فرض</option>
                     <option value='highest'>بیش ترین</option>
                     <option value="lowest">کم ترین</option>
                 </select>
                 <p dir='rtl' className={Styles.priceParagraph}> قیمت : </p>
+               {/* </div> */}
                
             </div>
 

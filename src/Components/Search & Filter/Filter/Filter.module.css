@@ -20,7 +20,7 @@
     text-align: center;
     height: 38px;
     font-family: iransansweb;
-    /* margin:0 10px; */
+
     padding: 0 10px;
     border: 1px solid blue;
     border-radius: 5px;
@@ -35,35 +35,32 @@
 }
 .sort_select{
     width: auto;
-    /* margin-top: 25px; */
+
 }
 .categorieParagraph{
     font-family: iransansweb;
-    width: 87px;
     margin-bottom: 5px;
     font-size:14px
 }
 .priceParagraph{
     font-family: iransansweb;
-    width: 100%;
     margin-bottom: 5px;
     font-size:14px
 }
 @media only screen and (min-width : 320px){
     .filterParent{
         display: flex;
-        align-items: flex-end;
+        align-items: center;
         width: 100%;
         justify-content: center;
         flex-direction: column-reverse;
+        
     }
     .group{
-        align-items: center;
         display: flex;
-        align-items: center;
-        justify-content: space-between;
-
+        justify-content: flex-end;
         flex-direction: row;
+        align-items: flex-end;
         padding: 0;
         margin:0;
     }
@@ -71,26 +68,23 @@
         text-align: center;
         height: 38px;
         font-family: iransansweb;
-        margin:0 10px;
+        /* margin:0 10px; */
         padding: 0 10px;
         border: 1px solid blue;
         border-radius: 5px;
         box-shadow: 0 0 1px 0 rgb(94, 4, 179);
     }
-    .categori_select{
-        width: auto;
-    }
-    .sort_select{
-        width: auto;
+    .groupSort{
         margin-top: 25px;
     }
     .categorieParagraph{
         font-family: iransansweb;
-        width: 87px;
+        margin-left: 10px;
     }
     .priceParagraph{
         font-family: iransansweb;
-        width: 100%;
+        margin-left: 10px;
+
     }
 }
 @media only screen and (min-width : 460px){
@@ -106,14 +100,18 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
+        flex-direction: row;
+        justify-content: flex-end;
         padding: 0;
         margin:0;
+    }
+    .groupSort{
+        margin-top: 25px;
     }
     .groupSelect{
         text-align: center;
         height: 38px;
         font-family: iransansweb;
-        margin:0 10px;
         padding: 0 10px;
         border: 1px solid blue;
         border-radius: 5px;
@@ -124,60 +122,55 @@
     }
     .sort_select{
         width: auto;
-        margin-top: 25px;
     }
     .categorieParagraph{
         font-family: iransansweb;
-        width: 87px;
     }
     .priceParagraph{
         font-family: iransansweb;
-        width: 100%;
     }
 }
 @media only screen and (min-width : 600px){
     .filterParent{
-        display: flex;
-        align-items: center;
         width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
         justify-content: space-between;
     }
     .group{
-        align-items: center;
         display: flex;
+        justify-content: center;
         align-items: center;
-        justify-content: space-between;
-        padding: 0;
+       
+    }
+    .groupSort{
         margin:0;
     }
     .groupSelect{
         text-align: center;
         height: 38px;
         font-family: iransansweb;
-        margin:0 10px;
+
         padding: 0 10px;
         border: 1px solid blue;
         border-radius: 5px;
         box-shadow: 0 0 1px 0 rgb(94, 4, 179);
     }
-    .categori_select{
-        width: auto;
-    }
-    .sort_select{
-        width: auto;
-    }
+
     .categorieParagraph{
         font-family: iransansweb;
-        width: 87px;
+        margin-top: 5px;
     }
     .priceParagraph{
         font-family: iransansweb;
-        width: 100%;
+        margin-top: 5px;
+    
     }
 }
 @media only screen and (min-width : 720px){}
 @media only screen and (min-width : 800px){}
-@media only screen and (min-width : 960px){}
+@media only screen and (min-width : 980px){}
 @media only screen and (min-width : 1080px){}
 @media only screen and (min-width : 1180px){}
 @media only screen and (min-width : 1260px){}
