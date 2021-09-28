@@ -16,7 +16,7 @@ const Main = () => {
                 <HeaderAndMenu/>
                 <Add/>
                 <SearchFilter/> 
-                 {/* <Item/> */}
+                 <Item/>
 
               </ContextProvider>
           </div>
