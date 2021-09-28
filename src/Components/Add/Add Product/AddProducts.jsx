@@ -78,7 +78,7 @@ const AddProduct = () => {
                             </select>
                             <p className={Styles.group_Name} dir='rtl'>دسته بندی ( گروه )  : </p>   
                         </div>
-                        {des.length < 3 && <span  className={Styles.alert} style={{color:'green'}}>می توانید گروه غذایی انتخاب نکنید (اختیاری)</span>} 
+                        <span  className={Styles.alert} style={{color:'green'}}>می توانید گروه غذایی انتخاب نکنید (اختیاری)</span>
 
                     </div>
                 </div>

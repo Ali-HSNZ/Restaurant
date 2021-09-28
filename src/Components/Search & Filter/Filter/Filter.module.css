@@ -25,17 +25,10 @@
     border: 1px solid blue;
     border-radius: 5px;
     box-shadow: 0 0 1px 0 rgb(94, 4, 179);
-    font-size:14px
+    font-size:13px
 }
 .groupSort{
     margin-top: 25px;
-}
-.categori_select{
-    width: auto;
-}
-.sort_select{
-    width: auto;
-
 }
 .categorieParagraph{
     font-family: iransansweb;
@@ -68,7 +61,8 @@
         text-align: center;
         height: 38px;
         font-family: iransansweb;
-        /* margin:0 10px; */
+        font-size: 13px;
+
         padding: 0 10px;
         border: 1px solid blue;
         border-radius: 5px;
@@ -115,13 +109,8 @@
         padding: 0 10px;
         border: 1px solid blue;
         border-radius: 5px;
+        font-size: 13px;
         box-shadow: 0 0 1px 0 rgb(94, 4, 179);
-    }
-    .categori_select{
-        width: auto;
-    }
-    .sort_select{
-        width: auto;
     }
     .categorieParagraph{
         font-family: iransansweb;
@@ -155,6 +144,7 @@
         padding: 0 10px;
         border: 1px solid blue;
         border-radius: 5px;
+        font-size: 14px;
         box-shadow: 0 0 1px 0 rgb(94, 4, 179);
     }
 
