@@ -35,8 +35,18 @@ const SetFilterProducts = createContext()
 const  ContextProvider= ({children}) => {
 
     const [filterProducts , setFilterproducts] = useState([])
-    const [products,setProducts] = useState([])
-    const [category,setCategory] = useState([])
+    const [products,setProducts] = useState([
+        {Name : "ماکارونی" ,Price : 250000 ,describe : ". این ماده خوراکی بیشتر در کارخانجات به صورت خشک تولید شده و پیش از خوردن جوشانده می‌شود. معنا و شکل ماکارونی در هر کشور یا منطقه تفاوت دارد. ",Category : "پاستا",imgSrc : ''},
+        {Name : "قورمه سبزی" ,Price : 390000 ,describe : "قورمه سبزی سمبل غذاهای ایرانی است و کمتر کسی هست که این غذای اصیل ایرانی را با سبزی‌های تازه دوست نداشته باشد",Category : "خورشت",imgSrc : ''},
+        {Name : "قیمه با سیب زمینی" ,Price : 180000 ,describe : "یکی دیگر از خورشت‌های خوشمزه و خوش رنگ و لعاب برای ناهار ظهر قیمه با سیب زمینی است. این خورشت خوشمزه برای ماه محرم زبانزد است",Category : "خورشت ",imgSrc : ''},
+        {Name : "بامیه" ,Price : 20000 ,describe : "خورشت بامیه یکی از غذاهای خوشمزه و بی‌نظیر از خطه‌ی جنوب ایران است. بامیه یکی از گیاهان ضد افسردگی است. بامیه برای کنترل کلسترول خون مناسب است. مثل سویا پروتئین دارد و برای درمان کبد چرب مفید است.",Category : "خورشت ",imgSrc : ''},
+        {Name : "آبگوشت" ,Price : 410000 ,describe : "آبگوشت یک غذای سنتی و خوشمزه است که دورهمی می‌چسبد و به همین دلیل اکثر ایرانیان در ظهر جمعه آن را درست می‌کنند. آبگوشت از ترکیب گوشت تازه گوسفندی استخوان دار به همراه نخود، لوبیا و سیب زمینی درست می‌شود",Category : "نامشخص",imgSrc : ''},
+        
+    ])
+    const [category,setCategory] = useState([
+        {name : 'خورشت'},
+        {name : 'پاستا'},
+    ])
 
     useEffect(()=>{
         setFilterproducts(products)
